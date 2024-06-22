@@ -46,7 +46,7 @@
 
                     <div class="mb-3">
                         <label for="body" class="form-label">Corpo del testo</label>
-                       <textarea name="body" id="body" cols="30" rows="10">{{old('body')}}</textarea>
+                       <textarea name="body" id="body" cols="30" rows="10" class="form-control">{{old('body')}}</textarea>
                         @error('body')
                         <div class="alert alert-danger">{{$message}}</div>                        
                         @enderror

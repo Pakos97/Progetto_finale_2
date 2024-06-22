@@ -1,6 +1,6 @@
 <x-layout>
     <x-header
-    title="Registrati"
+    title="Accedi"
     />
     <div class="container  m-5"> 
         <div class="row justify-content-center">

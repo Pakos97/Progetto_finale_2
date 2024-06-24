@@ -19,7 +19,7 @@
             </a>
             <ul class="dropdown-menu">
               <li><a class="dropdown-item" href="{{route('article.create')}}">Crea Articolo</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="{{route('article.index')}}">Tutti gli articoli</a></li>
               <li><hr class="dropdown-divider"></li>
               <li><a class="dropdown-item" href="#" onclick="event.preventDefault(); document.querySelector('#form-logout').submit();">Logout</a></li>
               <form id="form-logout" action="{{route('logout')}}" method="POST" >
